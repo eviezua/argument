@@ -1,0 +1,15 @@
+div{
+	border: 10%;
+	border-color: #E0FFFF;
+	border-style: ridge;
+	background-color: #3CB371;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+h2{
+	font-family: Open_Sans;
+	color: white;
+	font-size: 24px;
+}

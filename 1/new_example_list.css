@@ -1,0 +1,61 @@
+@font-face{
+	font-family: Open_Sans;
+	src: url(/fonts/OpenSans-Italic.ttf);
+}
+.text1{
+	resize: none;
+	width: 80%;
+	padding: 10px;
+	font-size: 24px;
+	box-sizing: border-box;
+	border-color: #00FF7F;
+	border-radius: 3%;
+	border-width: 20px;
+	border-style: ridge;
+	color: #006400;
+	font-family: Open_Sans;
+}
+.but{
+	width: 20%;
+	font-size: 24px;
+	border-color: #00FF7F;
+	border-radius: 3%;
+	border-width: 10px;
+	border-style: ridge;
+	margin-left: 70%;
+	color: #006400;
+	font-family: Open_Sans;
+}
+.but:active{
+	background-color: #2E8B57;
+}
+.but:hover{
+	background-color: #228B22;
+}
+fieldset{
+	width: 80%;
+	border-color: #006400;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+.text2{
+	font-size: 24px;
+	color: #006400;
+	font-family: Open_Sans;
+}
+#lifestory{
+	display: none;
+}
+#mistestvo{
+	display: none;
+}
+.hide{
+	display: none;
+}
+.search_tags li {
+	font-size: 24px;
+	color: #006400;
+	font-family: Open_Sans;	
+}

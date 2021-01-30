@@ -1,0 +1,65 @@
+@font-face{
+	font-family: Open_Sans;
+	src: url(fonts/OpenSans-Italic.ttf);
+}
+.but1 {
+	height: 125px;
+	width: 100%;
+	background-color: #00FF7F;
+	color: #006400;
+	font-size: 35px;
+	font-family: Open_Sans;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	box-shadow: 0 -3px #556B2F inset;
+	transition: 0.5s;
+}
+.but1:active{
+	background-color: #228B22;
+}
+.but1:hover{
+	background-color: #9ACD32;
+}
+table{
+	width: 100%;
+	height: 830px;
+	border-style: dashed;
+	border-color: 082400;
+}
+.table1{
+	width: 20%;
+	height: 100%;
+	border-style: dashed;
+	border-color: 082400;
+}
+.table2{
+	width: 80%;
+	height: 100%;
+	border-style: dashed;
+	border-color: 082400;
+
+}
+iframe{
+	width: 100%;
+	height: 100%;
+}
+.but2{
+	height: 10%;
+	width: 20%;
+	background-color: #00FF7F;
+	color: #E0FFFF;
+	font-size: 20px;
+	font-family: Open_Sans;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	box-shadow: 0 -3px #00FA9A inset;
+	transition: 0.5s;
+	border-radius: 0.5%;
+	margin-left: 80%;
+}
+.but2:active{
+	background-color: #2E8B57;
+}
+.but2:hover{
+	background-color: #3CB371;
+}
