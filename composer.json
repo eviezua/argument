@@ -1,0 +1,14 @@
+{
+  "name": "eviezua/argument",
+  "description": "Site for learning ukrainian",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "eviezua",
+      "email": "eviezua@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
