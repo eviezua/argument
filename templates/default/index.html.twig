@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ZNO{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" type="text/css" href="/css/main_file.css">
+{% endblock %}
+
+{% block javascripts %}
+    <script src="/js/main_file.js"></script>
+{% endblock %}
+
+{% block body %}
+<h1><center>ZNO-PATTERN</center><h1/>
+    <input type="button" value="Вхід" onclick="open_file('4/login.php')" class="but2"><br>
+    <input type="button" value="Реєстрація" onclick="open_file('3/registr.php')" class="but2">
+    <table>
+        <nav>
+            <td class="table1">
+                <input type="button" onclick="" value="Особистий кабінет" class="but1" ><br>
+                <input type="button" onclick="open_file('5/lenta.php')" value="Приклади" class="but1" ><br>
+                <input type="button" onclick="open_file('2/top.html')" value="Топ" class="but1" ><br>
+                <input type="button" onclick="open_file('1/new_example_list.php')" value="Додати свій приклад" class="but1"><br>
+                <input type="button" onclick="" value="Гра" class="but1" ><br>
+                <input type="button" onclick="" value="Зворотній зв`язок" class="but1" >
+            </td>
+            <td class="table2">
+                <iframe src="5/lenta.php" id="outer_page"></iframe>
+            </td>
+    </table>
+{% endblock %}
