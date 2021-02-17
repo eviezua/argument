@@ -2,7 +2,7 @@
     $settings = require('../settings.php');
     $connection=mysqli_connect($settings['db']['server'], $settings['db']['user'], $settings['db']['password'], $settings['db']['database']);
 	$connection->query("SET NAMES 'utf8' ");
-	if (isset($_POST['text_field'])){
+	if (isset($_POST['text_field'])!=' '){
 		$username=$_POST['username'];
 		$text=$_POST['text_field'];
 		$themes=$_POST['new_text'];
@@ -11,6 +11,7 @@
 		$select2=$_POST['lifes'];
 		$select1=$_POST['type'];
 		$date=date('Y-m-d H:i:s');
+		$author=$_POST['author'];
 		if (isset($username)=='FALSE') {
 			$username="Anonymous";
 		}
@@ -40,7 +41,7 @@
  <body>
  	<form method="POST">
  	<fieldset>
- 		<center><input type="text" name="username" placeholder="Ваш нікнейм: " class="text1"></center>
+ 		<center><input type="text" name="username" placeholder="Ваш нікнейм: " class="text1" autocomplete="off"></center>
  			<fieldset>
  				<legend class="text2">Ваш приклад з: </legend>
  				<left><p><input type="radio" name="type" id="miste" value="miste"><a class="text2">Творів мистецтва</a></p></left>
@@ -54,11 +55,11 @@
  			</fieldset>
  			<fieldset id="mistestvo">
  				<legend class="text2">Для прикладу з творів мистецтва</legend>
- 				<center><input type="text" name="name" placeholder="Назва: " class="text1"></center>
- 				<center><input type="text" name="genre" placeholder="Жанр: " class="text1"></center>
-                <center><input type="text" name="genre" placeholder="Автор:(Приклад: Тарас Григорович Шевченко) " class="text1"></center>
+ 				<center><input type="text" name="name" placeholder="Назва: " class="text1" autocomplete="off"></center>
+ 				<center><input type="text" name="genre" placeholder="Жанри:(Приклад: драма; комедія) " class="text1" autocomplete="off"></center>
+                <center><input type="text" name="author" placeholder="Автор:(Приклад: Тарас Григорович Шевченко) " class="text1" autocomplete="off"></center>
  			</fieldset>
- 			 	<p><center><textarea type="text" name="text_field" placeholder="Ваш приклад: " cols="200" rows="10" class="text1"></textarea></center></p>
+ 			 	<p><center><textarea type="text" name="text_field" placeholder="Ваш приклад: " cols="200" rows="10" class="text1" autocomplete="off"></textarea></center></p>
  		<center><input type="text" id="tags" placeholder="Теми: " class="text1"></center>
  		<right><p><input type="button" onclick="tag_add()" class="but" value="Додати теми"></p></right>
  		<fieldset>

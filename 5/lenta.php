@@ -21,7 +21,8 @@
 			<p><h2>%s<h2></p>
 			<p><h2>%s<h2></p>
 			<p><h2>%s<h2></p>
-			<p><h2>%s<h2></p></div>', $array['nickname'], $array['publication_time'], $array['select1'], $array['select2'], $array['bookname'], $array['bookgenre'], $array['thems'], $array['user_text']);
+			<p><h2>%s<h2></p>
+			<p><h2>%s<h2></p></div>', $array['nickname'], $array['publication_time'], $array['select1'], $array['select2'], $array['bookname'], $array['bookgenre'], $array['author'], $array['thems'], $array['user_text']);
 	}
 	while ($array=mysqli_fetch_assoc($posts));
 ?>
