@@ -4,31 +4,31 @@
 	padding: 10px;
 	font-size: 24px;
 	box-sizing: border-box;
-	border-color: #00FF7F;
+	border-color: #191970;
 	border-radius: 3%;
 	border-width: 20px;
 	border-style: ridge;
-	color: #006400;
+	color: #000066;
 	font-family: Open_Sans;
 }
 button{
 	width: 80%;
 	font-size: 32px;
-	border-color: #00FF7F;
+	border-color: #191970;
 	border-radius: 3%;
 	border-width: 10px;
 	border-style: ridge;
-	color: #006400;
-	font-family: Open_Sans;	
+	color: #000066;
+	font-family: Open_Sans;
 }
 button:hover{
-	background-color: #228B22;
+	background-color: #7B68EE;
 }
 button:active{
-	background-color: #2E8B57;
+	background-color: #0000CD;
 }
 h2{
 	font-size: 36px;
-	color: #006400;
+	color: #000066;
 	font-family: Open_Sans;
 }

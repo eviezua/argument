@@ -2,22 +2,22 @@
 	width: 30%;
 	font-size: 24px;
 	margin-right: 1%;
-	border-color: #00FF7F;
+	border-color: #191970;
 	border-radius: 3%;
 	border-width: 10px;
 	border-style: ridge;
-	color: #006400;
+	color: #000066;
 	font-family: Open_Sans;
 }
 .but:active{
-	background-color: #2E8B57;
+	background-color: #0000CD;
 }
 .but:hover{
-	background-color: #228B22;
+	background-color: #7B68EE;
 }
 .text{
 	font-size: 24px;
-	color: #006400;
+	color: #000066;
 	font-family: Open_Sans;
 }
 select{
@@ -29,10 +29,10 @@ table{
 	height: auto;
 	border-width: thick;
 	border-style: groove;
-	border-color: #A0522D;
+	border-color: #191970;
 	text-align: center;
 	font-size: 32px;
-	color: #006400;
+	color: #000066;
 	font-family: Open_Sans;
 }
 #num {
