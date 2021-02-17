@@ -26,7 +26,8 @@
 				$select2="історичної особи";
 			}
 		}
-		$query=$connection->query("INSERT INTO user_form (nickname, select1, thems, user_text, select2, bookname, bookgenre, publication_time) VALUES ('$username', '$select1', '$themes', '$text', '$select2', '$bookname', '$genre', '$date')");
+		$query=$connection->query("INSERT INTO user_form (nickname, select1, thems, user_text, select2, 
+                       bookname, bookgenre, publication_time) VALUES ('$username', '$select1', '$themes', '$text', '$select2', '$bookname', '$genre', '$date')");
 	}
  ?>
 <!DOCTYPE html>
@@ -55,6 +56,7 @@
  				<legend class="text2">Для прикладу з творів мистецтва</legend>
  				<center><input type="text" name="name" placeholder="Назва: " class="text1"></center>
  				<center><input type="text" name="genre" placeholder="Жанр: " class="text1"></center>
+                <center><input type="text" name="genre" placeholder="Автор:(Приклад: Тарас Григорович Шевченко) " class="text1"></center>
  			</fieldset>
  			 	<p><center><textarea type="text" name="text_field" placeholder="Ваш приклад: " cols="200" rows="10" class="text1"></textarea></center></p>
  		<center><input type="text" id="tags" placeholder="Теми: " class="text1"></center>
@@ -73,7 +75,7 @@
  		<fieldset id="themes" >
  			<legend class="text2" id="1">Ваші теми: </legend>
  		</fieldset>
- 		<button type="submit" class="but" onclick="send_form()">Додати приклад</button>
+ 		<button type="submit" class="but" onclick="send_form()">Зберегти</button>
  	</fieldset>
     </form>
  	<script src="new_example_list.js"></script>

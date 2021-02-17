@@ -3,7 +3,7 @@
 	src: url(fonts/OpenSans-Italic.ttf);
 }
 .but1 {
-	height: 125px;
+	height: 90px;
 	width: 100%;
 	background-color: #4628B0;
 	color: #FFFFFF;
@@ -22,7 +22,7 @@
 }
 table{
 	width: 100%;
-	height: 830px;
+	height: 780px;
 	border-style: dashed;
 	border-color: #191970;
 }
@@ -45,18 +45,14 @@ iframe{
 }
 .but2{
 	height: 10%;
-	width: 20%;
+	width: 25%;
 	background-color: #4628B0;
 	color: #FFFFFF;
 	font-size: 20px;
 	font-family: Open_Sans;
-	margin-top: 1%;
-	margin-bottom: 1%;
 	box-shadow: 0 -3px #110148 inset;
 	transition: 0.5s;
 	border-radius: 0.5%;
-	margin-left: 40%;
-	margin-right: 40%;
 }
 .but2:active{
 	background-color: #0000CD;
@@ -65,7 +61,15 @@ iframe{
 	background-color: #7B68EE;
 }
 h1{
-	font-size: 48px;
+	font-size: 40px;
 	color: #000066;
 	font-family: Open_Sans;
+}
+div{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+img{
+	height: 15%;
+	width: 23%;
 }
