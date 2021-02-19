@@ -2,7 +2,7 @@
     $settings = require('../settings.php');
     $connection=mysqli_connect($settings['db']['server'], $settings['db']['user'], $settings['db']['password'], $settings['db']['database']);
 	$connection->query("SET NAMES 'utf8' ");
-	if (isset($_POST['text_field'])!=' '){
+	if (empty($_POST['text_field'])==false){
 		$username=$_POST['username'];
 		$text=$_POST['text_field'];
 		$themes=$_POST['new_text'];
@@ -12,7 +12,7 @@
 		$select1=$_POST['type'];
 		$date=date('Y-m-d H:i:s');
 		$author=$_POST['author'];
-		if (isset($username)=='FALSE') {
+		if (empty($username)==true) {
 			$username="Anonymous";
 		}
 		if ($select1=='miste') {
