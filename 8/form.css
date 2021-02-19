@@ -1,0 +1,31 @@
+input{
+    resize: none;
+    width: 80%;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    border-color: #191970;
+    border-radius: 3%;
+    border-width: 20px;
+    border-style: ridge;
+    color: #000066;
+    font-family: Open_Sans;
+}
+h1 {
+    font-size: 52px;
+    color: #000066;
+    font-weight: bold;
+    font-family: Open_Sans;
+}
+@font-face{
+    font-family: Open_Sans;
+    src: url(fonts/OpenSans-Italic.ttf);
+}
+fieldset{
+    width: 80%;
+    border-color: #000066;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
