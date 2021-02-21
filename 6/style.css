@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Open_Sans;
+    src: url(fonts/OpenSans-Italic.ttf);
+}
+p{
+    color: #000066;
+    font-size: 28px;
+    font-family: Open_Sans;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-weight: bold;
+}

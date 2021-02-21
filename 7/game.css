@@ -1,0 +1,68 @@
+h1 {
+    font-size: 52px;
+    color: #000066;
+    font-weight: bold;
+    font-family: Open_Sans;
+}
+@font-face{
+    font-family: Open_Sans;
+    src: url(fonts/OpenSans-Italic.ttf);
+}
+.but1{
+    height: 200px;
+    width: 35%;
+    font-family: Open_Sans;
+    font-size: 130px;
+    background-color: #191970;
+    border-radius: 20%;
+}
+.but1:active{
+    background-color: #2E2061;
+}
+.but1:hover{
+    background-color: #0000CD;
+}
+.div1{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:visited{
+    color: #FFFFFF;
+}
+a:active{
+    color: #FFFFFF;
+}
+input {
+    resize: none;
+    width: 80%;
+    padding: 10px;
+    font-size: 48px;
+    box-sizing: border-box;
+    border-color: #191970;
+    border-radius: 3%;
+    border-width: 20px;
+    border-style: ridge;
+    color: #000066;
+    font-family: Open_Sans;
+}
+.game .but2{
+    width: auto;
+    font-size: 24px;
+    border-color: #191970;
+    border-radius: 3%;
+    border-width: 10px;
+    border-style: ridge;
+    margin-left: 70%;
+    color: #000066;
+    font-family: Open_Sans;
+}
+.but2:active{
+    background-color: #0000CD;
+}
+.but2:hover{
+    background-color: #7B68EE;
+}
