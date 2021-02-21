@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 if (isset($_POST['name'])) {
     if (!empty($_POST['name']) &&
@@ -16,6 +17,8 @@ if (isset($_POST['name'])) {
 }
 var_dump($_POST);
 ?>
+=======
+>>>>>>> origin/main
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,4 +41,18 @@ var_dump($_POST);
     </fieldset>
 </form>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+<?php
+$to = "eviezua@gmail.com";
+$tema = "Зворотній зв'язок";
+$message = "Ім'я: " . $_POST['name'] . "<br>";
+$message .= "E-mail: " . $_POST['email'] . "<br>";
+$message .= "Повідомлення: " . $_POST['message'] . "<br>";
+$headers = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+mail($to, $tema, $message, $headers);
+?>
+>>>>>>> origin/main
