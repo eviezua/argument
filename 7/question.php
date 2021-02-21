@@ -42,7 +42,7 @@ if (isset($_POST['author'])) {
     <?php if ($author) : ?>
     <h1>Співпадання: <?php echo $perc ?>% </h1>
     <h1>Правильна відповідь: <?php echo $answer ?></h1>
-    <button class="but1" onclick="refreshPage()">Далі!</button>
+        <button class="but1"><a href="question.php">Далі!</a></button>
     <button class="but1"><a href="game.html">Стоп</a></button>
     <?php endif; ?>
 </div>
